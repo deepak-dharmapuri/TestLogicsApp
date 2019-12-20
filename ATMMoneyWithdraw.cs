@@ -11,7 +11,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Bank of MindTree welcomes you...");
+            Console.WriteLine("Bank of Testing welcomes you...");
             Console.WriteLine("Enter the Amount you want to withdraw");
             int withDrawAmt = 0;
             int.TryParse(Console.ReadLine(), out withDrawAmt);
